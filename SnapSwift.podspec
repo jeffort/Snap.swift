@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Snap.swift'
+  s.name             = 'SnapSwift'
   s.version          = '0.2.3'
   s.summary          = 'Snapshot testing in a snap'
 
@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   Snap is a snapshot testing library to facilitate the UI testing of your views.
                        DESC
 
-  s.homepage         = 'https://github.com/skyweb07/Snap.swift'
+  s.homepage         = 'https://github.com/jeffort/Snap.swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'skyweb07' => 'hi@oduran.me' }
-  s.source           = { :git => 'https://github.com/skyweb07/Snap.swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jeffort/Snap.swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/skyweb07'
 
   s.ios.deployment_target = '9.0'
